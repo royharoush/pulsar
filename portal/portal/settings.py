@@ -10,7 +10,7 @@ AUTH_USER_MODEL = 'pulsar.PortalUser'
 
 SECRET_KEY = os.environ['D_SECRET_KEY']
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost']
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
